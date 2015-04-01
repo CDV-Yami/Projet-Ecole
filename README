@@ -1,0 +1,16 @@
+Projet_MesCouillanski
+==========
+
+# Install
+
+Install and run composer
+
+```bash
+
+    # Install composer
+    curl -sS https://getcomposer.org/installer | php 
+
+    # Install vendors
+    php composer.phar install
+
+```
