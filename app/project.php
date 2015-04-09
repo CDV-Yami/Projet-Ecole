@@ -1,5 +1,7 @@
 <?php
 
+header('Access-Control-Allow-Origin: *');
+header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept");
 $app = require_once __DIR__.'/bootstrap.php';
 
 /**
@@ -20,4 +22,5 @@ $app->error(function (\Exception $e, $code) {
 
 
 return $app;
-+
+
+?>
