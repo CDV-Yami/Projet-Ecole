@@ -1,0 +1,7 @@
+<?php
+
+$config['database'] = [
+    'database.dsn' => 'mysql:host=localhost; dbname=mydb',
+    'database.user' => 'root',
+    'database.password' => 'root'
+];
